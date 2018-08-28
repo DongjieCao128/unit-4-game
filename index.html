@@ -1,1 +1,34 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crystal Game</title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <h1>Number to Guess:<span id="number-to-guess"></span></h1>
+        <img class="crystal" id="crystal01" src="https://i.pinimg.com/originals/14/16/bd/1416bd3724052582479576fb309387c8.jpg">
+        <img class="crystal" id="crystal02" src="http://www.lightworkersworld.com/wp-content/uploads/2015/08/Crystal-Quartz.jpg">
+        <img class="crystal" id="crystal03" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS4vRWIdOVO6qjmpMNlyaFLm-hX8pziTOpE3rgCY8goxRWZjve">
+        <img class="crystal" id="crystal04" src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642">
+        <p id=gamerule>You will be given a random number to start the game. There are four crystal below. By clicking a crystal, you will be able to add a random number to your total score. 
+            You will win the game by adding your total score to the random generated number. You lose if your total score goes above random generated number. 
+            The vaule of crystal is hidden from you until you click them. 
+            Each time when the game started, it will change the vaule of the crystal. 
+        </p>
+        <p>targetNumber: <span id=targetNumber></span></p>
+        <p>wins: <span id=wins></span></p>
+        <p>loses: <span id=loses></span></p>
+        <p>totalScore: <span id=totalScore></span></p>
+    </div>
+    <!-- html to javascript border -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
